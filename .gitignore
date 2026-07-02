@@ -1,0 +1,56 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.agents/
+*.swp
+*.swo
+
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*credentials*
+*secret*
+*token*
+
+# Logs and temporary outputs
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Model/checkpoint/index artifacts that should not be published here
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.faiss
+*.index
+checkpoints/
+models/
+runs/
+wandb/
+mlruns/
+outputs/
+data/raw/
+data/interim/
+transcripts/
